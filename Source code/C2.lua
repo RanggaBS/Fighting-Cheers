@@ -13,7 +13,7 @@ function main()
 	TutorialShowMessage("Fighting Cheers v2", 1500, true)
 	Wait(1500)
 	TutorialShowMessage("Mod by: RBS ID", 1500, true)
-	--[[for i, v in ({1,2,3,4,5,6,11}) do
+	--[[for i, v in ipairs({1,2,3,4,5,6,11}) do
 		PedSetTypeToTypeAttitude(v, 13, 4)
 	end]]
 	while true do
